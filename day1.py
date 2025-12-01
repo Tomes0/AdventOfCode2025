@@ -2,7 +2,8 @@ current = 50
 zeroCount = 0
 
 def rotateRight(current, clicksToRotate):
-    return  (current + clicksToRotate) % 100
+    value = (current + clicksToRotate) % 100
+    return  value
 
 
 def rotateLeft(current, clicksToRotate):
